@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Mehboob ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="startScreen">
+    <button onclick="startLove()">Press only if you love me ❤️</button>
+</div>
+
+<div id="mainContent" class="hidden">
+    <h1 id="message">You are my world 💖</h1>
+    <p>Click anywhere...</p>
+
+    <button onclick="openLetter()">💌 Open Secret Letter</button>
+    <button onclick="openPuzzle()">🔐 Unlock My Heart</button>
+
+    <div id="timer"></div>
+
+    <div id="slideshow">
+        <img id="slideImg" src="a.jpg" width="200">
+    </div>
+</div>
+
+<div id="letter" class="hidden popup">
+    <p>
+        Mehboob ❤️<br><br>
+        Tum meri zindagi ka sabse khoobsurat hissa ho...  
+        I love you forever 💕  
+    </p>
+    <button onclick="closeLetter()">Close</button>
+</div>
+
+<div id="puzzle" class="hidden popup">
+    <h3>Enter Name & Special Date</h3>
+    <input id="nameInput" placeholder="Name"><br>
+    <input id="dateInput" placeholder="DD-MM-YYYY"><br>
+    <button onclick="checkPuzzle()">Unlock</button>
+</div>
+
+<div id="surprise" class="hidden popup">
+    <h2>I LOVE YOU MEHBOOB ❤️🔥</h2>
+</div>
+
+<audio id="bgMusic" src="love.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
