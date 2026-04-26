@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 25px;
+    border: none;
+    background: pink;
+    font-size: 16px;
+}
+
+.hidden { display: none; }
+
+.popup {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #111;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: white;
+}
+
+#timer {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+#slideshow img {
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
